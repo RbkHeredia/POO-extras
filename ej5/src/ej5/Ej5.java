@@ -5,6 +5,9 @@
  */
 package ej5;
 
+import Entidades.Meses;
+import Servicios.MesesServicios;
+
 /**
  *
  * @author rebek
@@ -25,7 +28,8 @@ public class Ej5 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        MesesServicios ms = new MesesServicios();
+        Meses m1 = ms.comenzarJuego();
     }
     
 }
